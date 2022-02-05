@@ -23,7 +23,7 @@ body {
 }
 
 .outer-background .inner-background {
-    background-color: rgba(223, 25, 25, 0.678)
+    background-color: rgba(223, 25, 25, 0)
 }
 
 .outer-background {
@@ -67,7 +67,7 @@ body {
     bottom: 0%;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    height: fit-content;
+    height: 100px;
     width: 100%;
     background-color: #ea36af;
 }
