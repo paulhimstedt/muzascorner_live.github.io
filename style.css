@@ -358,10 +358,6 @@ h1 {
     .inner-background {
         overflow: scroll;
     }
-    /*
-    html {
-        overflow: hidden;
-    }*/
 }
 
 
@@ -372,7 +368,7 @@ h1 {
         position: absolute;
         height: fit-content;
         grid-template-columns: repeat(2, 1fr);
-        bottom: 0;
+        bottom: 0%;
         width: 100%;
     }
 }
@@ -391,7 +387,7 @@ h1 {
         position: absolute;
         height: fit-content;
         grid-template-columns: repeat(4, 1fr);
-        bottom: 0;
+        bottom: 0%;
         width: 100%;
     }
     .plattform-icon {
