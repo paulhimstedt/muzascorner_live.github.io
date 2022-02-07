@@ -68,6 +68,7 @@ body {
     grid-template-columns: auto auto auto auto;
     height: 100px;
     width: 100%;
+    background-color: red;
 }
 
 .music-link-container p {
@@ -374,7 +375,7 @@ h1 {
 
 @media only screen and (max-width: 500px) {
     .music-link-container {
-        height: fit-content;
+        /* height: fit-content;*/
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
     }
@@ -391,7 +392,7 @@ h1 {
 
 @media only screen and (max-height: 690px) {
     .music-link-container {
-        height: fit-content;
+        /*height: fit-content;*/
         grid-template-columns: repeat(4, 1fr);
         width: 100%;
     }
